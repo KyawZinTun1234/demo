@@ -1,0 +1,474 @@
+body{
+	font-family: 'Architects Daughter', cursive;
+	background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+	color:#FFD700;
+}
+.navbar{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: #0000CC;
+	color: white;
+	left: 0;
+	height: 65px;
+	z-index: 1;
+}
+.navbar ul {
+	display: flex;
+	
+	list-style-type: none;
+}
+button{
+	position: relative;
+	left: 100px;
+	bottom: 10px;
+	height: 40px;
+	text-align: center;
+	font-size: 0.7em;
+	width: 100px;
+	margin-top: 5px;
+	cursor: pointer;
+	font-weight: 800;
+
+}
+.navbar ul li{
+	margin-right: 10px;
+	font-size: 1.3em;
+	position: relative;
+	left: 340px;
+	font-weight: 900;
+	margin-right: 150px;
+	
+}
+.navbar ul li#logo{
+	position: absolute;
+	bottom: 3px;
+	left: 50px;
+	color: gold;
+}
+form.log-inandsign-up{
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top:56px;
+	right: 8px;
+	width: 20%;
+	padding-right:30px;
+	padding-left: 30px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	
+}
+form.log-inandsign-up input{
+	width: 90%;
+}
+form.log-inandsign-up input#remember{
+	width: auto;
+}
+button#Sign-up{
+	position: relative;
+	top: 11px;
+	left: 55px;
+	background-color: yellow;
+	border-radius: 10px;
+}
+button#log-in{
+	position: relative;
+	top: 5px;
+	left: 58px;
+	border-radius: 10px;
+	background-color: yellow;
+}
+div.log-in{
+	padding-top: 0px;
+}
+.navbar ul li a:hover{
+	color: #f1c40f;
+	cursor: pointer;
+}
+button:hover{
+	background-color: #FFCC00;
+	border-radius: 10px;
+}
+img{
+	background-size:cover;
+	width: 100%;
+	height: 640px;
+	display: block;
+}
+h1{
+	position: absolute;
+	top: 70px;
+	left: 40px;
+	color: white;
+	font-size: 40px;
+}
+.text_block{
+	position: absolute;
+	top: 300px;
+	left: 40px;
+	font-size: 35px;
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+	padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+}
+form input#departure{
+	position: relative;
+	top: 36px;
+	right: 60px;
+	width: 15%;
+}
+form input#arrival{
+	position: relative;
+	top: 36px;
+	right: 50px;
+	width:15%;
+}
+form input#depart{
+	position: relative;
+	top: 34px;
+	right: 125px;
+	width: 12%;
+}
+form input#return{
+	position: relative;
+	top: 34px;
+	width: 12%;
+	right: 205px;
+}
+form{
+	background-color: rgba(0,0,0,0.7);
+	padding-top: 30px;
+	align-items: center;
+	width: 80%;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 10px;
+	padding-bottom: 60px;
+	padding: 2.5rem;
+	
+
+}
+p#search_a_flight{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 1000;
+}
+#Search{
+	position: relative;
+	width: 200px;
+    left: 800px;
+    font-size: 0.8em;
+    margin-top: 5px;
+    height: 43px;
+    background-color: #fcf75e;
+    border-radius: 5px;
+}
+h3{
+	position: relative;
+	bottom: 5px;
+}
+form label.return-date{
+	position: relative;
+	right:80px;
+}
+form label.arrive{
+	position: relative;
+	right: 20px;
+}
+
+.airport_search label{
+	color: #C0C0C0;
+	font-size: 20px;
+	font-weight: 800;
+
+}
+input.box{
+	border-radius: 5px;
+	height: 2.5em;
+	margin-right: 10px;
+}
+#Search:hover{
+	background-color:#FF5147;
+	color: white;
+}
+p#destination{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 1000;
+}
+#image1{
+    display: inline-block;
+    float: left;
+    width: 600px;
+    border-radius: 5px;
+}
+img#barcelona{
+	width:600px;
+	height: 200px;
+}
+img#barcelona:hover{
+	box-shadow: 0 0 10px black;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+p#barcelona-text{
+	position: relative;
+	left: 210px;
+	font-size: 30px;
+	font-weight: 800;
+}
+#image2{
+    display: inline-block;
+    float: right;
+    width: 600px;
+    border-radius: 5px;
+}
+img#rome{
+	width: 600px;
+	height: 200px;
+}
+img#rome:hover{
+	box-shadow: 0 0 10px black;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+p#rome-text{
+	font-size: 30px;
+	font-weight: 800;
+	position: absolute;
+	top: 1340px;
+	right:270px;
+}
+section.image_section2{
+	position: absolute;
+	top: 1440px;
+}
+#image3{
+    display: inline-block;
+    width: 600px;
+    border-radius: 5px;
+}
+img#london{
+	width: 600px;
+	height: 200px;
+}
+img#london:hover{
+	box-shadow: 0 0 10px black;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+p#london-text{
+	font-size: 30px;
+	font-weight: 800;
+	position: absolute;
+	left: 210px;
+}
+#image4{
+    display: inline-block;
+    width: 600px;
+    border-radius: 5px;
+}
+img#dubai{
+	width: 600px;
+	height: 200px;
+	position: relative;
+	left: 40px;
+}
+img#dubai:hover{
+	box-shadow: 0 0 10px black;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+p#dubai-text{
+	font-size: 30px;
+	font-weight: 800;
+	position: absolute;
+	right: 225px;
+}
+section.image_section3{
+	position: absolute;
+	top: 1740px;
+}
+#image5{
+    display: inline-block;
+    width: 600px;
+    border-radius: 5px;
+}
+img#paris{
+	width: 600px;
+	height: 200px;
+}
+img#paris:hover{
+	box-shadow: 0 0 10px black;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+p#paris-text{
+	font-size: 30px;
+	font-weight: 800;
+	position: absolute;
+	left: 240px;
+}
+#image6{
+    display: inline-block;
+    width: 600px;
+    border-radius: 5px;
+}
+img#singapore{
+	width: 600px;
+	height: 200px;
+	position: relative;
+	left: 40px;
+}
+img#singapore:hover{
+	box-shadow: 0 0 10px black;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+p#singapore-text{
+	font-size: 30px;
+	font-weight: 800;
+	position: absolute;
+	right: 190px;
+}
+section.image_section4{
+	position: absolute;
+	top: 2030px;
+}
+#image7{
+    display: inline-block;
+    width: 600px;
+    border-radius: 5px;
+}
+img#chile{
+	width: 600px;
+	height: 200px;
+}
+img#chile:hover{
+	box-shadow: 0 0 10px black;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+p#chile-text{
+	font-size: 30px;
+	font-weight: 800;
+	position: absolute;
+	left: 240px;
+}
+#image8{
+    display: inline-block;
+    width: 600px;
+    border-radius: 5px;
+}
+img#maldives{
+	width: 600px;
+	height: 200px;
+	position: relative;
+	left: 40px;
+}
+img#maldives:hover{
+	box-shadow: 0 0 10px black;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+p#maldives-text{
+	font-size: 30px;
+	font-weight: 800;
+	position: absolute;
+	right: 190px;
+}
+section.image_section5{
+	position: absolute;
+	top: 2320px;
+}
+#image9{
+    display: inline-block;
+    width: 600px;
+    border-radius: 5px;
+}
+img#seoul{
+	width: 600px;
+	height: 200px;
+}
+img#seoul:hover{
+	box-shadow: 0 0 10px black;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+p#seoul-text{
+	font-size: 30px;
+	font-weight: 800;
+	position: absolute;
+	left: 240px;
+}
+#image10{
+    display: inline-block;
+    width: 600px;
+    border-radius: 5px;
+}
+img#tokyo{
+	width: 600px;
+	height: 200px;
+	position: relative;
+	left: 40px;
+}
+img#tokyo:hover{
+	box-shadow: 0 0 10px black;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+p#tokyo-text{
+	font-size: 30px;
+	font-weight: 800;
+	position: absolute;
+	right: 200px;
+}
+
+
+footer{
+	position: absolute;
+	top: 2600px;
+	left: 600px;
+}
+footer ul{
+  padding:0;
+  list-style:none;
+  font-size:20px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+p.copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:18px;
+  color:white;
+  margin-bottom:0;
+  position: relative;
+  right: 65px;
+
+}
+footer ul li:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+	text-shadow: 0 0 5px;
+}
+footer ul li#privacy-policy{
+	position: relative;
+	right: 35px;
+}
+footer ul li#service{
+	position: relative;
+	right: 9px;
+}
+.text_block:hover{
+	cursor: pointer;
+	transform: scale(1.2);
+}
+p.email{
+	text-align: center;
+	position: relative;
+	right: 53px;
+	color: #FF69B4;
+}
